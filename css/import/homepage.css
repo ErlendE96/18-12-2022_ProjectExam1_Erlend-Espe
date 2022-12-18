@@ -1,0 +1,39 @@
+.hp{
+    margin: 0 auto;
+    padding-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 3rem;
+    text-align: center;
+ 
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    bottom:40px;
+}
+
+.hpText{
+    margin-top:100rem;
+}
+
+.itemhp{
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+.suggestion1{
+    padding: 2rem;
+    text-align: center;
+}
+.suggestion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

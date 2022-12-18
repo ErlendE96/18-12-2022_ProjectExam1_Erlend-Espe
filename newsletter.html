@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter</title>
+  <link href='https://css.gg/search.css' rel='stylesheet'>
+  <link rel = "stylesheet" href = "css/style.css">
+  <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox" class=hamburger-icon><i class="fas fa-bars"></i></label>
+            <div class="hamburgeritems">
+              <a href="index.html">home </a>
+              <a href="recipes.html">Recipes</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+              <a href="newsletter.html">Weekly newsletter</a>
+          </div>
+<div class = "container">
+  <nav class = "navBarNav">
+        <h1 class ="mainHeading">Good Mood Food</h1>
+        <ul class="navBar">
+          <li class="nav-item">
+              <a  href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a  href="newsletter.html">Weekly newsletter</a>
+        </li>
+          <li class="nav-item">
+            <a  href="recipes.html">Recipes</a>
+        </li>
+          <li class="nav-item">
+              <a  href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a  href="contact.html">Contact</a>
+          </li>
+      </ul>
+  </nav>
+  <main class="container1">
+    <h2 class = "contactTitle">Subscribe to our weekly newsletter!</h2>
+    <h4 class = "contactTitle">Our newsletter contains featured recipes every week!</h4>
+    <div id="message"></div>
+    <form>
+        <div>
+            <label>
+                Email (required)
+                <input name="email" id="email" />
+            </label>
+        </div>
+        <button class="button5" disabled>Send</button>
+    </form>
+</main>
+<script src = "js/newsletter.js"></script>
+</body>
+</html>

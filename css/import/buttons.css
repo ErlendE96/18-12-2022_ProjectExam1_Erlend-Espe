@@ -1,0 +1,153 @@
+.button a{
+    text-decoration: none;
+    color: white;
+}
+F
+.btn{
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1.05rem;
+}
+
+.button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top:3rem;
+}
+.button1{
+    background-color: white;
+    font-family: inherit;
+    border:solid;
+    width: 300px;
+    height: 65px;
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button2{
+    background-color: black;
+    font-family: inherit;
+    border:solid;
+    width: 150px;
+    height: 65px;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    justify-content: center;
+    color:white;
+    cursor: pointer;
+    margin-top:2rem;
+    margin-left: 1rem;
+}
+
+.button2:hover{
+    color:grey;
+}
+.button a{
+    color:black
+}
+
+.button a:hover{
+    color: grey;
+}
+
+.searchButton{
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem;
+    background: black;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+
+}
+.searchButton:hover{
+    background: grey;
+
+}
+
+.search-control,
+.searchButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closerecipe{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-size: 1.8rem;
+    background: black;
+    color:white;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.closerecipe:hover{
+    color:grey;
+}
+
+.gg-search{
+    box-sizing: border-box;
+    position:relative;
+    display:block;
+    width:16px;
+    height:16px;
+    border:2pxsolid;
+    border-radius:100%;
+    margin-left: 8px;
+    
+}
+
+.button5 {
+    background: green;
+    border: none;
+    width: 200px;
+    height :50px;
+    padding: 1rem;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.button5:disabled {
+    background: lightgray;
+}
+
+.recipeBtn{
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.75rem 0;
+    display: block;
+    width: 175px;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+.recipeBtn:hover{
+    color:grey;
+
+}
+

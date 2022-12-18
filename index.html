@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href='https://css.gg/search.css' rel='stylesheet'>
+  <link rel = "stylesheet" href = "css/style.css">
+  <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox" class=hamburger-icon><i class="fas fa-bars"></i></label>
+            <div class="hamburgeritems">
+                <a href="index.html">home </a>
+                <a href="recipes.html">Recipes</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="newsletter.html">Weekly newsletter</a>
+            </div>
+  <div class = "container">
+    <nav class = "navBarNav">
+          <h1 class ="mainHeading">Good Mood Food</h1>
+          <ul class="navBar">
+            <li class="nav-item">
+                <a  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a  href="newsletter.html">Weekly newsletter</a>
+          </li>
+            <li class="nav-item">
+              <a  href="recipes.html">Recipes</a>
+          </li>
+            <li class="nav-item">
+                <a  href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a  href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class = "hp">
+        <h2 class = "title">Find Meals For Your Ingredients</h2>
+        <a>Quality recipes made by professional chefs, making eating healthy easy.
+        </a>
+        <div class = "button">
+          <a  class = "button1" type="button" href="recipes.html">
+            Get started
+          </a>
+        </div>
+    </div>
+      <div class = "suggestion1">
+        <a class="hpText"> Suggested ingredients:</a>
+        <div class = "suggestion">
+          <button type = "submit" class = "button2" id = "searchButton1" >
+            <a>Beef</a>
+            </button>
+          <button type = "submit" class = "button2" id = "searchButton2" >
+            <a>Chicken</a>
+            </button>
+          <button type = "submit" class = "button2" id = "searchButton3" >
+            <a>Eggs</a>
+            </button>
+        </div>
+          </div>
+    <div class = "mealCard">
+      <div class = "mealResult">
+        <div id= "food">
+        </div>
+          </div>
+      <div class = "meal-details">
+        <button type = "button" class = "btn closerecipe" placeholder="close"id = "closerecipe">
+          <i class = "fas fa-times"></i>
+          </button>
+      <div class = "mealDetails">
+        </div> 
+        </div>
+    </div>
+  <script src = "js/homepage.js"></script>
+</body>
+</html>

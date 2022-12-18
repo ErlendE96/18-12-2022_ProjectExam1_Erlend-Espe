@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link href='https://css.gg/search.css' rel='stylesheet'>
+  <link rel = "stylesheet" href = "css/style.css">
+  <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox" class=hamburger-icon><i class="fas fa-bars"></i></label>
+            <div class="hamburgeritems">
+              <a href="index.html">home </a>
+              <a href="recipes.html">Recipes</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+              <a href="newsletter.html">Weekly newsletter</a>
+          </div>
+<div class = "container">
+  <nav class = "navBarNav">
+        <h1 class ="mainHeading">Good Mood Food</h1>
+        <ul class="navBar">
+          <li class="nav-item">
+              <a  href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a  href="newsletter.html">Weekly newsletter</a>
+        </li>
+          <li class="nav-item">
+            <a  href="recipes.html">Recipes</a>
+        </li>
+          <li class="nav-item">
+              <a  href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a  href="contact.html">Contact</a>
+          </li>
+      </ul>
+  </nav>
+    <div class = "mealCard">
+      <div class = "mealSearch">
+        <h2 class = "title">Choose between hundreds of recipes</h2>
+        <a>Choose an ingredient, and we'll find a recipe containing it.
+        </a>
+        <div class = "mealSearchBox">
+          <input type = "text" class = "searchControl" placeholder="Enter ingredient" id = "srcinput">
+          <button type = "submit" class = "searchButton btn" id = "searchButton">
+            <i class = "gg-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class = "mealResult">
+        <h2 class = "title">Your results:</h2>
+        <div id= "food">
+        </div>
+      <div class = "meal-details">
+        <button type = "button" class = "btn closerecipe" placeholder="close"id = "closerecipe">
+          <i class = "fas fa-times"></i>
+        </button>
+        <div class = "mealDetails">
+        </div>
+      </div>
+    </div>
+  <script src = "js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+.container{
+    min-height: 100vh;
+}
+.mealCard{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.mealSearch{
+    margin: 3rem 0;
+
+}
+.mealSearch cite{
+    font-size: 1rem;
+}
+.mealSearchBox{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.searchControl{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.searchControl::placeholder{
+    color: black;
+}
+
+
+.item{
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);;
+    margin: 2rem 0;
+
+}
+.mealImg img{
+    width: 100%;
+    display: block;
+}
+.mealName{
+    padding: 1.5rem 0.5rem;
+}
+.mealName h3{
+    font-size: 1.4rem;
+}
+
+.meal-details{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background: white;
+    border-radius: 1rem;
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    display: none;
+    padding: 3rem 0;
+}
+.meal-details::-webkit-scrollbar{
+    width: 10px;
+}
+.meal-details::-webkit-scrollbar-thumb{
+    background: #f0f0f0;
+    border-radius: 2rem;
+}
+
+
+.recipe{
+    display: block;
+}
+
+.mealDetails{
+    margin: 2rem;
+}
+.mealDetails p:not(.recipe-category){
+    padding: 1rem 0;
+}
+
+.recipe-title{
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+.recipe-category{
+    background: #fff;
+    font-weight: 600;
+    color: black;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.recipe-instruct{
+    padding: 1rem 0;
+}
+.recipe-meal-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.recipe-link{
+    margin: 1.4rem 0;
+}
+
+.recipe-link a:hover{
+    opacity: 0.8;
+}
+
+.error{
+    grid-template-columns: 1fr!important;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+@media screen and (min-width: 800px){
+    .mealSearchBox{
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #food{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .item{
+        margin: 0;
+    }
+    .meal-details{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #food{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
