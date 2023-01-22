@@ -1,31 +1,30 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![foodwebsite](https://user-images.githubusercontent.com/96021420/213921676-5025d406-9ad4-4fcb-a796-2d671582427e.png)
 
-A simple overview of the use/purpose of the project.
+
+Website used for finding healthy food recipes.
 
 ## Description
+The main goal of the website is helping people finding healthy food recipes. The targeted audience is people of all ages and genders that wishes to eat healthy and good food, but wont waste their time looking through recipe books.
+The main content of the site will be found on the recipes page, which will contain a search bar that allows users to input an ingredient, and the site will return various dishes containing that ingredient.
+The site is built using HTML, CSS and JavaScript. The food site employs JSON API for dynamic data, which means the recipe/food content will be collected from an external site.
 
-Add a more detailed description of what your project entails and set out to do.
+Good Food Mood contains 5 pages; 
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+-	Homepage
+-	Contact page
+-	About page
+-	Recipes page
+-	Weekly newsletter
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- [fontawesome](https://fontawesome.com/)
 
 ## Getting Started
 
 ### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
 
@@ -55,16 +54,6 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+[My Facebook page](https://www.facebook.com/erlend.espe/)
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My LinkedIn page](https://www.linkedin.com/mwlite/in/erlend-espe-3852b724a)
